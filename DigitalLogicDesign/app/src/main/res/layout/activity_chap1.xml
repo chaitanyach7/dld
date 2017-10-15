@@ -1,0 +1,19 @@
+<RelativeLayout android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content"
+              android:text="Under construction"
+              android:layout_centerInParent="true"
+              android:textSize="30sp"
+              android:textColor="#00ffb7"
+
+              android:layout_height="wrap_content"/>
+    <TextClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true" android:layout_alignParentEnd="true"
+            android:layout_marginRight="28dp" android:layout_marginEnd="28dp" android:layout_marginTop="57dp"
+            android:id="@+id/textClock"/>
+</RelativeLayout>
